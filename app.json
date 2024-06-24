@@ -1,30 +1,43 @@
 {
   "expo": {
-    "name": "Metafit",
-    "slug": "Metafit",
-    "version": "1.0.0",
+    "name": "Metafit Workout Builder",
+    "slug": "MetafitWorkoutBuilder",
+    "version": "1.1.6",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/MetafitIcon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/MetafitSplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#014171"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.metafitgyms"
     },
     "android": {
+      "package": "com.metafitgyms",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36ab0e0e-f333-4ccb-9f33-054135f989f3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/36ab0e0e-f333-4ccb-9f33-054135f989f3"
     }
   }
 }
